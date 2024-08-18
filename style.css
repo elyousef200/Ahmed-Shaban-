@@ -1,0 +1,433 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: inline-flex;
+    background-color: #ddd;
+    width: 100%;
+    position: fixed;
+
+}
+
+#name-head{
+    color: blue;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 50px;
+    letter-spacing: 5px;
+    margin-right:480px;
+}
+
+header a{
+   margin-left: 100px;
+    margin-top:30px;
+    padding-left: 60px;
+    text-decoration: none;
+    align-content: center;
+    font-size:20px;
+    color:blue;
+    transition: 0.9s ease;
+    border-radius: 30px;
+    width: 200px;
+
+}
+
+header a:hover {
+    color: rgb(11, 11, 20);
+    font-size: 25px;
+    box-shadow: 0px 15px 25px rgb(1 1 1);
+    border:1px solid gray;
+    border-radius: 30px;
+    align-content: center;
+}
+
+#main{
+    background-color:rgb(35, 35, 150);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.main1{
+    padding-top: 200px;
+    margin:0px 200px;
+}
+
+
+.main1 h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0px 30px 10px rgb(1 1 1);
+}
+
+.main1 h1{
+    color:white;
+    border-style:dashed;
+    font-size: 40px;
+    margin: 100px 45px;
+    letter-spacing: 15px;
+    background-image: url(images/background-text.jfif);
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.main1 h3{
+    margin: 70px 0px;
+    color: #ddd;
+    font-size: 33px;
+    letter-spacing: 4px;
+}
+
+.social a{
+    margin: 50px 20px;
+    color:rgb(225, 225, 232);
+    font-size: 25px;
+    transition: 0.9s ease;
+}
+
+.social{
+    margin-left: 100px;
+    height:100px;
+    padding-bottom: 169.95px;
+}
+
+.social a:hover{
+    font-size: 30px;
+    color:rgb(69, 67, 83);
+}
+
+#Contact{
+background-color: rgb(48, 42, 42);
+
+}
+
+input{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    margin: 70px 450px;
+    width :40%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px rgb(1 1 1);
+}
+
+select{
+    margin-left:470px;
+    background-color: rgb(111, 103, 103);
+    color:white;
+ }
+input[type = "submit"]
+{
+    width : 15%;
+    background-color: green;
+    margin-left:640px;
+}
+
+.copy{
+    color: rgb(42, 11, 165);
+    margin-left: 600px;
+
+}
+
+p{
+    background-color: rgb(51, 51, 57);
+}
+
+textarea{
+    margin: 40px 550px;
+    padding: 40px 50px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(160, 160, 180);
+    border-radius: 15px;
+    border-top:4px solid rgb(79, 79, 97);
+    box-shadow: 0px 15px 25px rgb(1 1 1);
+}
+
+@media(max-width:400px){
+
+    #name-head{
+        margin-right: 0px;
+    }
+
+   header a{
+    margin-right: 100px;
+
+}
+    #main{
+        background-image:url(images/background.jfif);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        width: 400%;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding:10px 0px;
+        margin-left: 50px;
+    }
+
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 400%;
+        text-align: center;
+    }
+
+}
+
+
+@media(max-width:730px){
+    header a{
+        padding: 0px 50px;
+        width:300px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header a:hover{
+        font-size: 35px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #name-head{
+        padding-right:0px;
+        margin-right: 0px;
+    }
+
+    #main{
+        width: 195%;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding: 10px 0px;
+        margin-left: 40px;
+    }
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 195%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:431px){
+    header a{
+        padding: 0px 50px;
+        width:300px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header a:hover{
+        font-size: 35px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #name-head{
+        padding-right:0px;
+        margin-right: 0px;
+    }
+
+    #main{
+        width: 325%;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding: 10px 0px;
+        margin-left: 40px;
+    }
+    #Contact{
+        height:2000px;
+    }
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 325%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:391px){
+    header a{
+        padding: 0px 20px;
+        width:400px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header a:hover{
+        font-size: 35px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #name-head{
+        padding-right:0px;
+        margin-right: 0px;
+    }
+
+    #main{
+        width:355%;
+    }
+
+    .main1{
+        padding-bottom: 300px;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding: 10px 0px;
+        margin-left: 40px;
+    }
+    #Contact{
+        height:2000px;
+    }
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 355%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:415px){
+    header a{
+        padding: 0px 20px;
+        width:400px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header a:hover{
+        font-size: 35px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #name-head{
+        padding-right:0px;
+        margin-right: 0px;
+    }
+
+    #main{
+        width:380%;
+    }
+
+    .main1{
+        padding-bottom: 300px;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding: 10px 0px;
+        margin-left: 40px;
+    }
+    #Contact{
+        height:2000px;
+    }
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 375%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:354px){
+    header a{
+        padding: 0px 20px;
+        width:400px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    header a:hover{
+        font-size: 35px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #name-head{
+        padding-right:0px;
+        margin-right: 0px;
+    }
+
+    #main{
+        width:390%;
+    }
+
+    .main1{
+        padding-bottom: 500px;
+
+    }
+    .main1 h2{
+        margin-top: 300px;
+    }
+
+    .main1 h1{
+        width: 70%;
+        padding: 10px 0px;
+        margin-left: 40px;
+        margin-top: 400px;
+    }
+
+    .main1 h3{
+        margin-top: 200px;
+    }
+    .social a{
+        font-size: 40px;
+    }
+    #Contact{
+        height:2000px;
+    }
+    .copy{
+        display: inline-flex;
+        margin-left: 0px;
+    }
+    p{
+        width: 390%;
+        text-align: center;
+    }
+}
